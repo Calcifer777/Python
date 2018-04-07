@@ -65,7 +65,13 @@ Index object are immutable, and cannot be modified. An Index also functions as a
 | is_unique | Returns True if the Index has no duplicate values | 
 | unique | Compute the array of unique values in the Index |
 
-### Selecting the data
+### Functionalities
+
+**[Reindexing](https://pandas.pydata.org/pandas-docs/stable/generated/pandas.DataFrame.reindex.html)** 
+
+`DataFrame.reindex(labels=None, index=None, columns=None, axis=None, method=None, copy=True, level=None, fill_value=nan, limit=None, tolerance=None)`
+
+**Selecting the data**
 
 Dataframe columns can be selected either by dict-like notation, `s['col']`, or as an attribute, `s.col`.
 
